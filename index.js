@@ -3,12 +3,12 @@
  * Module dependencies.
  */
 
-var Emitter = require('emitter')
-  , overlay = require('overlay')
-  , domify = require('domify')
-  , events = require('event')
-  , classes = require('classes')
-  , query = require('query');
+var Emitter = require('component-emitter')
+  , overlay = require('component-overlay')
+  , domify = require('component-domify')
+  , events = require('component-event')
+  , classes = require('component-classes')
+  , query = require('component-query');
 
 /**
  * Active dialog.
